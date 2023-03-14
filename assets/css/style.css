@@ -1,14 +1,17 @@
+*{
+    color:aliceblue;
+}
 .container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     opacity: 2;
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
 }
 .head{
     display: block;
     width: 100%;
-    height: 50px;
+    height: 100px;
     font-size: larger;
     background-color: #020202;
     text-align: center;
@@ -37,10 +40,20 @@
     display: inline-block;
     margin-left: 5px;
     margin-right: 10px;
+    padding-right:50px;
+    padding-left:50px;
 }
 .nav-name{
     display: inline-block; 
+    
     color: hsl(180, 92%, 75%);
-    padding-right: 800px;
-    padding-left:0%
+    /* background-image: url("../img/name.png"); */
+    padding-right:50px;
+    padding-left:50px;
+}
+.midd{
+    display: block;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+
 }
